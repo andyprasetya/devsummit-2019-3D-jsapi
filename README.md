@@ -4,7 +4,7 @@ Presentations for the 3D JavaScript API at the 2019 ESRI Developer Summit
 
 ## Interactive 3D Maps with the ArcGIS API for JavaScript
 
-Discover the 3D capabilities of the ArcGIS API for JavaScript and learn how to leverage them to build stunning 3D web applications. 
+Discover the 3D capabilities of the ArcGIS API for JavaScript and learn how to leverage them to build stunning 3D web applications.
 
 ### Getting Started
 
@@ -33,16 +33,17 @@ Find out how to use WebGL and WebGL-based 3D rendering engines like three.js to 
 
 [4D Volume Rendering Demo using the ArcGIS JS API external renderer API](https://esri.github.io/devsummit-2019-3D-jsapi/Advanced-WebGL-in-3D-SceneViews/External-Volume-Renderer/). This application integrates an external WebGL rendering application into a SceneView. Beware: Due to the large size of volume data sets, this application loads 25MB of data per time step. WebGL 2.0 required.
 
-## Using TypeScript with ArcGIS API for JavaScript
-
-In this session we will learn some of the basics of TypeScript and how it can help you as a developer using the ArcGIS API for JavaScript. We will also look at how to set up a development environment and use the provided TypeScript definition files.
-
-[https://esri.github.io/devsummit-2019-3D-jsapi/Using-TypeScript-with-ArcGIS-API-for-JavaScript](https://esri.github.io/devsummit-2019-3D-jsapi/Using-TypeScript-with-ArcGIS-API-for-JavaScript)
-
-# Installing
+### Installing
 
 The [4D Volume Rendering Demo](https://esri.github.io/devsummit-2019-3D-jsapi/Advanced-WebGL-in-3D-SceneViews/External-Volume-Renderer/) can be installed locally for better performance. The data is stored in ```git lfs``` (Large File Storage). Install a local webserver to serve the checked out repository and follow the following steps:
 
 * Install git-lfs (for example using ```brew install git-lfs``` or ```apt install git-lfs```)
 * Clone the repository with lfs: ```git lfs clone https://github.com/Esri/devsummit-2019-3D-jsapi.git```
 * Open ```localhost://.../devsummit-2019-3D-jsapi/Advanced-WebGL-in-3D-SceneViews/External-Volume-Renderer/``` in your browser
+
+
+## Using TypeScript with ArcGIS API for JavaScript
+
+In this session we will learn some of the basics of TypeScript and how it can help you as a developer using the ArcGIS API for JavaScript. We will also look at how to set up a development environment and use the provided TypeScript definition files.
+
+[https://esri.github.io/devsummit-2019-3D-jsapi/Using-TypeScript-with-ArcGIS-API-for-JavaScript](https://esri.github.io/devsummit-2019-3D-jsapi/Using-TypeScript-with-ArcGIS-API-for-JavaScript)
